@@ -103,7 +103,7 @@ class UI{
         cart.map(item => {
             tempTotal += item.price * item.amount;
             itemsTotal += item.amount;
-        })
+          });
         cartTotal.innerText = parseFloat(tempTotal.toFixed(2));
         cartItems.innerText = itemsTotal;
     }
@@ -127,6 +127,20 @@ class UI{
         cartOverlay.classList.add('transparentBcg');
         cartDOM.classList.add('showCart');
     }
+    setupAPP(){
+        cart =  Storage.getCart();
+        this.setCartValues(cart);
+        this.populateCart(cart);
+        cartBtn.addEventListener('click',this.showCart);//important
+        closeCartBtn.addEventListener('click',this.hideCart);
+    }
+    populateCart(cart){
+        cart.forEach(item => this.addCartItem(item));
+    }
+    hideCart(){
+        cartOverlay.classList.remove('transparentBcg');
+        cartDOM.classList.remove('showCart');
+    }
 }
 
 //local storage class
@@ -141,11 +155,16 @@ class Storage{
     static saveCart(cart){
         localStorage.setItem("cart",JSON.stringify(cart));
     }
+    static getCart(){
+        return localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+    }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
     const ui = new UI();
     const products = new Products();
+    //setup application
+    ui.setupAPP();
     
     //get all products
     products.getProducts().then(products => {
