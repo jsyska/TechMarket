@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "gaming pc",
+          "price": 999.99,
+          "image": { "fields": { "file": { "url": "./images/gamingPC.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "drone",
+          "price": 399.99,
+          "image": { "fields": { "file": { "url": "./images/drone.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "powerbank",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/powerbank.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "monitor",
+          "price": 199.99,
+          "image": { "fields": { "file": { "url": "./images/monitor.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "camera",
+          "price": 2000.00,
+          "image": { "fields": { "file": { "url": "./images/camera.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "laptop",
+          "price": 799.99,
+          "image": { "fields": { "file": { "url": "./images/laptop.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "smartphone",
+          "price": 340.00,
+          "image": { "fields": { "file": { "url": "./images/smartphone.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "scooter",
+          "price": 399.99,
+          "image": { "fields": { "file": { "url": "./images/scooter.jpg" } } }
+        }
+      }
+    ]
+  }
