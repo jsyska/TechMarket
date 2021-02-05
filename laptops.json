@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "GalaxyBook",
+          "price": 999.99,
+          "image": { "fields": { "file": { "url": "./images/laptops/galaxybook.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "HP",
+          "price": 399.99,
+          "image": { "fields": { "file": { "url": "./images/laptops/hp.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "DELL Inspiron",
+          "price": 12.99,
+          "image": { "fields": { "file": { "url": "./images/laptops/inspiron.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Lenovo Legion",
+          "price": 199.99,
+          "image": { "fields": { "file": { "url": "./images/laptops/legion.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "RedmiBook",
+          "price": 2000.00,
+          "image": { "fields": { "file": { "url": "./images/laptops/redmibook.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Surace 3",
+          "price": 799.99,
+          "image": { "fields": { "file": { "url": "./images/laptops/surface3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Xiaomi",
+          "price": 340.00,
+          "image": { "fields": { "file": { "url": "./images/laptops/xiaomi.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Asus Zehphyrus",
+          "price": 399.99,
+          "image": { "fields": { "file": { "url": "./images/laptops/zephyrus.jpg" } } }
+        }
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "AlienWare",
+          "price": 1200,
+          "image": { "fields": { "file": { "url": "./images/computers/alienware.webp" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "DELL",
+          "price": 999.99,
+          "image": { "fields": { "file": { "url": "./images/computers/dell.webp" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "ABS3",
+          "price": 899.99,
+          "image": { "fields": { "file": { "url": "./images/computers/abs3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Storm",
+          "price": 700,
+          "image": { "fields": { "file": { "url": "./images/computers/storm.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Game Spot",
+          "price": 500,
+          "image": { "fields": { "file": { "url": "./images/computers/gamespot.jpg" } } }
+        }
+      }
+    ]
+  }

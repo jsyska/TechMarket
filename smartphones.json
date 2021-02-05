@@ -1,0 +1,60 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Samsung S21",
+          "price": 1200,
+          "image": { "fields": { "file": { "url": "./images/smartphones/s21.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Samsung S20",
+          "price": 999.99,
+          "image": { "fields": { "file": { "url": "./images/smartphones/s20.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Samsung S10",
+          "price": 899.99,
+          "image": { "fields": { "file": { "url": "./images/smartphones/s10.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Xiaomi mi 11",
+          "price": 700,
+          "image": { "fields": { "file": { "url": "./images/smartphones/mi11.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Xiaomi mi 10",
+          "price": 500,
+          "image": { "fields": { "file": { "url": "./images/smartphones/mi10.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": " Xiaomi mi 9",
+          "price": 399.99,
+          "image": { "fields": { "file": { "url": "./images/smartphones/mi9.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Iphone X",
+          "price": 499.99,
+          "image": { "fields": { "file": { "url": "./images/smartphones/iphonex.jpg" } } }
+        }
+      }
+    ]
+  }

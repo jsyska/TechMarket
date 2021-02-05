@@ -1,0 +1,36 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Acer Predator",
+          "price": 999.99,
+          "image": { "fields": { "file": { "url": "./images/monitors/Acer.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "HP",
+          "price": 399.99,
+          "image": { "fields": { "file": { "url": "./images/monitors/hp.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "DELL 49",
+          "price": 1099.99,
+          "image": { "fields": { "file": { "url": "./images/monitors/dell49.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Dell",
+          "price": 100,
+          "image": { "fields": { "file": { "url": "./images/monitors/dell.jpg" } } }
+        }
+      }
+    ]
+  }

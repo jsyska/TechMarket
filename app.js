@@ -16,9 +16,9 @@ let buttonsDOM = [];
 
 //geting the products
 class Products{
-    async getProducts(){
+    async getProducts(type){
         try {
-            let result = await fetch('products.json');
+            let result = await fetch(`${type}.json`);
             let data = await result.json();
 
             let products = data.items;
@@ -225,11 +225,86 @@ document.addEventListener("DOMContentLoaded", () => {
     ui.setupAPP();
     
     //get all products
-    products.getProducts().then(products => {
+    products.getProducts("products").then(products => {
     ui.displayProducts(products);
     Storage.saveProducts(products);
     }).then(()=>{
         ui.getBagButtons();
         ui.cartLogic();
+    });
+});
+//categories of producsts
+
+let laptops = document.getElementById("laptops");
+let monitors = document.getElementById("monitors");
+let smartphones = document.getElementById("smartphones");
+let cameras = document.getElementById("cameras");
+let drones = document.getElementById("drones");
+let scooters = document.getElementById("scooter");
+let powerbanks = document.getElementById("monitors");
+let pcs = document.getElementById("pcs");
+
+//laptops event
+laptops.addEventListener("click", () => {
+    const uiL = new UI();
+    const productsL = new Products();
+    //setup application
+    uiL.setupAPP();
+    
+    //get all products
+    productsL.getProducts("laptops").then(products => {
+    uiL.displayProducts(products);
+    Storage.saveProducts(products);
+    }).then(()=>{
+        uiL.getBagButtons();
+        uiL.cartLogic();
+    });
+});
+//smarphones event
+smartphones.addEventListener("click", () => {
+    const uiS = new UI();
+    const productsS = new Products();
+    //setup application
+    uiS.setupAPP();
+    
+    //get all products
+    productsS.getProducts("smartphones").then(products => {
+    uiS.displayProducts(products);
+    Storage.saveProducts(products);
+    }).then(()=>{
+        uiS.getBagButtons();
+        uiS.cartLogic();
+    });
+});
+//monitors event
+monitors.addEventListener("click", () => {
+    const uiM = new UI();
+    const productsM = new Products();
+    //setup application
+    uiM.setupAPP();
+    
+    //get all products
+    productsM.getProducts("monitors").then(products => {
+    uiM.displayProducts(products);
+    Storage.saveProducts(products);
+    }).then(()=>{
+        uiM.getBagButtons();
+        uiM.cartLogic();
+    });
+});
+//computers event
+computers.addEventListener("click", () => {
+    const uiC = new UI();
+    const productsC = new Products();
+    //setup application
+    uiC.setupAPP();
+    
+    //get all products
+    productsC.getProducts("computers").then(products => {
+    uiC.displayProducts(products);
+    Storage.saveProducts(products);
+    }).then(()=>{
+        uiC.getBagButtons();
+        uiC.cartLogic();
     });
 });
