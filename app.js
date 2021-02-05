@@ -18,7 +18,7 @@ let buttonsDOM = [];
 class Products{
     async getProducts(type){
         try {
-            let result = await fetch(`${type}.json`);
+            let result = await fetch(`utils/${type}.json`);
             let data = await result.json();
 
             let products = data.items;
